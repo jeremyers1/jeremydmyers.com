@@ -1,11 +1,118 @@
 * {
     font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0; 
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 69px;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.me {
+    color:#F9FAF8;
+    font-size: 24px;
+    font-weight: 700px;
+}
+
+.io {
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 ul {
     list-style: none;
+    display: flex;
 }
 
 .rGod {
     width: 14px;
 }
+
+main {
+    width: 100%;
+}
+
+.ElonMusk {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.codeHero {
+    font-size: 48px;
+    font-weight: 900;
+    color:#F9FAF8;
+}
+
+.codeHero2 {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.MrRobot {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.MrRobot .boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.MrRobot .boxes .box {
+    border:5px solid #3882F6;
+    border-radius: 25px;
+}
+
+.DogecoinToTheMoon {
+    background-color: #E5E7EB;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MoreCoffeePlease {
+    color: #1F2937;
+    font-size: 36px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button, .cta {
+    background-color: #3882F6;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 69px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
