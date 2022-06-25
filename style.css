@@ -25,14 +25,14 @@ header {
 .me {
     color:#F9FAF8;
     font-size: 24px;
-    font-weight: 700px;
-    margin-left: 20px;
+    font-weight: 700;
+    margin-left: 7%;
 }
 
 .io {
     color: #E5E7EB;
     font-size: 18px;
-    margin-right: 20px;
+    margin-right: 7%;
 }
 
 ul {
@@ -43,6 +43,9 @@ ul {
 
 .rGod {
     width: 14px;
+    background-color: #E5E7EB;
+    border-radius: 2px;
+    padding: 1px;
 }
 
 main {
@@ -55,10 +58,11 @@ main {
     display:flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .title {
-    margin: 100px;
+    margin-left: 7%;
 }
 
 .codeHero {
@@ -94,14 +98,23 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: initial;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.KindOfABigDeal {
+    width: 250px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
 }
 
 .box {
     border:2px solid #3882F6;
     border-radius: 15px;
     padding: 15px;
-    margin: 20px;
+    margin: 20px 0;
 }
 
 .DogecoinToTheMoon {
@@ -132,18 +145,31 @@ main {
 }
 
 .cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 25px;
     background-color: #3882F6;
-    margin: 100px;
+    margin: 69px;
     padding: 50px;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.HireMe {
+    width: 50%;
+    margin-right: 40px;
 }
 
 button {
-    border: 1px solid #E5E7EB;
-    border-radius: 5px;
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
     background-color: #3882F6;
-    margin: 50px;
-    padding: 20px;
+    margin: 10px 0;
+    padding: 7px 40px;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 footer {
