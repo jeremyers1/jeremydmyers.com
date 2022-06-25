@@ -35,6 +35,16 @@ header {
     margin-right: 7%;
 }
 
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.io a:hover {
+    color: #3882F6;
+}
+
+
 ul {
     list-style: none;
     display: flex;
@@ -117,6 +127,13 @@ main {
     margin: 20px 0;
 }
 
+.box img {
+    object-fit: contain;
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 25px
+}
+
 .DogecoinToTheMoon {
     background-color: #E5E7EB;
     display:flex;
@@ -170,6 +187,11 @@ button {
     color: #F9FAF8;
     font-size: 18px;
     font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1F2937;
 }
 
 footer {
