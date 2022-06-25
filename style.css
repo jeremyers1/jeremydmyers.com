@@ -93,7 +93,7 @@ main {
     flex: 1;
 }
 
-.MrRobot {
+.DogecoinToTheMoon {
     color: #1F2937;
     font-size: 36px;
     font-weight: 900;
@@ -134,7 +134,19 @@ main {
     border-radius: 25px
 }
 
-.DogecoinToTheMoon {
+.KindOfABigDeal .showOnHover {
+    display: none;
+  }
+  
+.KindOfABigDeal:hover .hideOnHover {
+    display: none;
+  }
+  
+.KindOfABigDeal:hover .showOnHover {
+    display: inline;
+  }
+
+.MrRobot {
     background-color: #E5E7EB;
     display:flex;
     justify-content: center;
